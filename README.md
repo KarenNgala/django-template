@@ -1,5 +1,5 @@
-# SlimJack
-A django application like [Awwwards](https://www.awwwards.com/), with two API Endpoints
+# Watchdogs
+A web application that allows you to be in the loop about everything happening in your neighborhood. From contact information of different handymen to meeting announcements or even alerts.
 
 ## Getting Started
 
@@ -76,7 +76,7 @@ With all environment variables changed to suit your local copy of this repositor
 * [Karen Ngala](https://github.com/KarenNgala)
 * [Mercy Njoroge](https://github.com/Mercy-Njoroge)
 * [Bryson Mundia](https://github.com/Bryson69)
-* [Ashley Mosoti]()
+* [Ashley Mosoti](https://github.com/NinahMo)
 
 
 ## License
