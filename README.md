@@ -1,34 +1,28 @@
-# Watchdogs
-A web application that allows you to be in the loop about everything happening in your neighborhood. From contact information of different handymen to meeting announcements or even alerts.
+# DJANGOQUICK START TEMPLATE
 
 ## Getting Started
-
 To get a copy of the project up and running on your local machine for development and testing purposes, 
 1. **clone** this repository 
    ``` 
    git clone https://github.com/KarenNgala/Watchdogs
    ```
-2. Set up a Python development environment that includes; Python, **pip** & **a virtual environment** 
+2. Install and actvate a virtual environment
    ```bash
    $ python3.6 -m venv --without-pip virtual
 
    $ source virtual/bin/activate
-
-   (virtual) $ curl https://bootstrap.pypa.io/get-pip.py | python
    ```
 
-### Prerequisites
-
-1. Install project **dependencies**
+3. Install **pip** and project **dependencies**
    ```sh
-    (virtual) $ pip install -r requirements.txt
+   (virtual) $ curl https://bootstrap.pypa.io/get-pip.py | python
+   virtual) $ pip install -r requirements.txt
     ```
 * See deployment for notes on how to deploy the project on a live system.
 
-### Installing
-
-1.  To get a development env running, use the **.env.example** file to create your own **.env** file.
-2.  Create a **postgres** db and add the credentials to .env file
+### Database requirements
+1.  To get a development env running, use the **.env.example** file to create **your own** `.env` file.
+2.  Create a **postgres** db and add the credentials to the .env file
 ```
 (virtual)$ psql
 pc-name=#  CREATE DATABASE <name>;
@@ -37,7 +31,7 @@ pc-name=#  CREATE DATABASE <name>;
 ```sh 
 (virtual) $ python manage.py migrate 
 ```
-4. Make migrations to your database
+4. Run migrations to your database
 ```sh
 (virtual) $ python manage.py makemigrations application
 (virtual) $ python manage.py migrate
@@ -70,15 +64,5 @@ With all environment variables changed to suit your local copy of this repositor
 * [Python3.6](https://www.python.org/) - Backend logic
 * [Postresql](https://www.postgresql.org/) - Database system
 
-
-## Authors
-
-* [Karen Ngala](https://github.com/KarenNgala)
-* [Mercy Njoroge](https://github.com/Mercy-Njoroge)
-* [Bryson Mundia](https://github.com/Bryson69)
-* [Ashley Mosoti](https://github.com/NinahMo)
-
-
 ## License
-
 This project is licensed under the MIT License - see the LICENSE.md file for details
