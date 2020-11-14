@@ -4,7 +4,7 @@
 To get a copy of the project up and running on your local machine for development and testing purposes, 
 1. **clone** this repository 
    ``` 
-   git clone https://github.com/KarenNgala/Watchdogs
+   git clone https://github.com/KarenNgala/django-template
    ```
 2. Install and actvate a virtual environment
    ```bash
